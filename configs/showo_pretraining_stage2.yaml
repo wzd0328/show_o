@@ -19,7 +19,7 @@ experiment:
 model:
     vq_model:
         type: "magvitv2"
-        vq_model_name: "/lpai/Show-o/showlab/magvitv2"
+        vq_model_name: "/lpai/inputs/models/showo-25-02-26-1/showlab/magvitv2"
 
     showo:
         load_from_showo: False
@@ -27,7 +27,7 @@ model:
         w_clip_vit: False
         vocab_size: 58498
         llm_vocab_size: 50295
-        llm_model_path: '/lpai/Show-o/microsoft/phi-1_5'
+        llm_model_path: '/lpai/inputs/models/showo-25-02-26-1/microsoft/phi-1_5'
         codebook_size: 8192
         num_vq_tokens: 256
         num_new_special_tokens: 10  # <|soi|> <|eoi|> <|sov|> <|eov|> <|t2i|> <|mmu|> <|t2v|> <|v2v|> <|lvg|> <|pad|>
